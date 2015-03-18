@@ -5,7 +5,11 @@ This file is used to list changes made in each version of the hostname-nativex c
 
 0.1.0
 -----
-- [your_name] - Initial release of hostname-nativex
+- [Adrian Herrera] - Initial release of hostname-nativex
+
+0.1.1
+-----
+- [Adrian Herrera] - Removed reference to route53 cookbook as it is not being used.
 
 - - -
 Check the [Markdown Syntax Guide](http://daringfireball.net/projects/markdown/syntax) for help with Markdown.
