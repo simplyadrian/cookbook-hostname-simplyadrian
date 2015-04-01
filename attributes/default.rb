@@ -1,2 +1,2 @@
 # Domain Name
-default['dnsupdate-nativex']['int_domain'] = 'nativexintern.com'
+default['hostname-nativex']['domain_name'] = 'teamfreeze.com'
