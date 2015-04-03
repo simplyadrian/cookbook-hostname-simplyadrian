@@ -8,7 +8,7 @@
 #
 
 # Set the FQDN for the node
-#full_nodename = node.name
+full_nodename = node.name
 full_nodename = "#{node.name}.#{node['hostname-nativex']['domain_name']}" unless
   node.name.include? "#{node['hostname-nativex']['domain_name']}"
 
