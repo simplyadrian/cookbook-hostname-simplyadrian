@@ -11,6 +11,10 @@ This file is used to list changes made in each version of the hostname-nativex c
 -----
 - [Adrian Herrera] - Removed reference to route53 cookbook as it is not being used.
 
+0.1.2
+-----
+- [Adrian Herrera] - Added idempotence check to updatehostname recipe to ensure that the FQDN is not being set in node.name attribute.
+
 - - -
 Check the [Markdown Syntax Guide](http://daringfireball.net/projects/markdown/syntax) for help with Markdown.
 
