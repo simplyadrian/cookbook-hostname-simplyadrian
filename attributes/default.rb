@@ -1,2 +1,2 @@
 # Domain Name
-default['hostname-nativex']['domain_name'] = 'teamfreeze.com'
+default['hostname-simplyadrian']['domain_name'] = 'simplyadrian.com'

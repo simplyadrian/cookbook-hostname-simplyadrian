@@ -1,10 +1,10 @@
 #
-# Cookbook Name:: hostname-nativex
+# Cookbook Name:: hostname-simplyadrian
 # Recipe:: default
 #
-# Copyright 2014, NativeX
+# Copyright 2014, simplyadrian
 #
 # All rights reserved - Do Not Redistribute
 #
 
-include_recipe "hostname-nativex::updatehostname"
+include_recipe "hostname-simplyadrian::updatehostname"

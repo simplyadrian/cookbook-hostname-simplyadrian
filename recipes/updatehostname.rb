@@ -1,16 +1,16 @@
 #
-# Cookbook Name:: hostname-nativex
+# Cookbook Name:: hostname-simplyadrian
 # Recipe:: updatehostname
 #
-# Copyright 2014, NativeX
+# Copyright 2014, simplyadrian
 #
 # All rights reserved - Do Not Redistribute
 #
 
 # Set the FQDN for the node
 full_nodename = node.name
-full_nodename = "#{node.name}.#{node['hostname-nativex']['domain_name']}" unless
-  node.name.include? "#{node['hostname-nativex']['domain_name']}"
+full_nodename = "#{node.name}.#{node['hostname-simplyadrian']['domain_name']}" unless
+  node.name.include? "#{node['hostname-simplyadrian']['domain_name']}"
 
 
 if platform_family?('debian')

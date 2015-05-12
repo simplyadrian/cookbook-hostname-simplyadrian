@@ -1,11 +1,11 @@
-hostname-nativex CHANGELOG
+hostname-simplyadrian CHANGELOG
 ==========================
 
-This file is used to list changes made in each version of the hostname-nativex cookbook.
+This file is used to list changes made in each version of the hostname-simplyadrian cookbook.
 
 0.1.0
 -----
-- [Adrian Herrera] - Initial release of hostname-nativex
+- [Adrian Herrera] - Initial release of hostname-simplyadrian
 
 0.1.1
 -----

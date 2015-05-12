@@ -1,4 +1,4 @@
-hostname-nativex Cookbook
+hostname-simplyadrian Cookbook
 =========================
 This cookbook sets the hostname on a linux server .
 
@@ -6,7 +6,7 @@ Requirements
 ------------
 
 #### cookbooks
-- `hostfile` - hostname-nativex needs hostfile cookbook providers to update a nodes hostfile.
+- `hostfile` - hostname-simplyadrian needs hostfile cookbook providers to update a nodes hostfile.
 
 * Chef 11 or higher
 
@@ -18,7 +18,7 @@ Tested on:
 Attributes
 ----------
 
-#### autofs-nativex::default
+#### autofs-simplyadrian::default
 <table>
   <tr>
     <th>Key</th>
@@ -27,7 +27,7 @@ Attributes
     <th>Default</th>
   </tr>
   <tr>
-    <td><tt>['hostname-nativex']['domain_name']</tt></td>
+    <td><tt>['hostname-simplyadrian']['domain_name']</tt></td>
     <td>String</td>
     <td>The domain name you will be appending to the node.name value to form the FQDN of server.</td>
     <td><tt>teamfreeze.com</tt></td>
@@ -36,15 +36,15 @@ Attributes
 
 Usage
 -----
-#### hostname-nativex::default
+#### hostname-simplyadrian::default
 
-Just include `hostname-nativex` in your node's `run_list`:
+Just include `hostname-simplyadrian` in your node's `run_list`:
 
 ```json
 {
   "name":"my_node",
   "run_list": [
-    "recipe[hostname-nativex]"
+    "recipe[hostname-simplyadrian]"
   ]
 }
 ```
